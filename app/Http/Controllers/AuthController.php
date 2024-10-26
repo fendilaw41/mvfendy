@@ -47,7 +47,7 @@ class AuthController extends Controller
                     ], 401);
                 }else{
                     $username = $request->username;
-                    $dataUser = $user->where('username', '=', 'aldmic')->first();
+                    $dataUser = $user->where('username', 'like', '%'.$username.'%')->first();
 
                     $request->session()->regenerate();
                     
