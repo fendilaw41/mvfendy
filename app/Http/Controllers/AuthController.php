@@ -46,8 +46,8 @@ class AuthController extends Controller
                         'message' => __("lang.invalid_login")
                     ], 401);
                 }else{
-                    $username=$request->username;
-                    $dataUser=$user->where('username', $username)->first();
+                    $username = $request->username;
+                    $dataUser = $user->where('username', '=', $username)->first();
 
                     $request->session()->regenerate();
                     
