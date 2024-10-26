@@ -9,15 +9,15 @@
       <!-- Favicon -->
       {{-- <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}"/> --}}
       <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://sublime-enthusiasm-production.up.railway.app/assets/css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="{{ env("APP_URL") }}/assets/css/bootstrap.min.css"/>
       <!-- Typography CSS -->
-      <link rel="stylesheet" href="https://sublime-enthusiasm-production.up.railway.app/assets/css/typography.css">
+      <link rel="stylesheet" href="{{ env("APP_URL") }}/assets/css/typography.css">
       <!-- Style -->
-      <link rel="stylesheet" href="https://sublime-enthusiasm-production.up.railway.app/assets/css/style.css"/>
+      <link rel="stylesheet" href="{{ env("APP_URL") }}/assets/css/style.css"/>
       <!-- Responsive -->
-      <link rel="stylesheet" href="https://sublime-enthusiasm-production.up.railway.app/assets/css/responsive.css"/>
-      <link rel="stylesheet" href="https://sublime-enthusiasm-production.up.railway.app/assets/css/toastr.min.css">
-      <link rel="stylesheet" href="https://sublime-enthusiasm-production.up.railway.app/assets/css/ext-component-toastr.css">
+      <link rel="stylesheet" href="{{ env("APP_URL") }}/assets/css/responsive.css"/>
+      <link rel="stylesheet" href="{{ env("APP_URL") }}/assets/css/toastr.min.css">
+      <link rel="stylesheet" href="{{ env("APP_URL") }}/assets/css/ext-component-toastr.css">
    </head>
    <body>
    <!-- loader Start -->
@@ -59,23 +59,23 @@
    <!-- back-to-top End -->
    <!-- jQuery, Popper JS -->
    <input type="hidden" style="display: none;" class="app_url" value="{{ env("APP_URL") }}">
-   <script src="{{ asset('assets/js/jquery-3.5.1.min.js') }}"></script>
-   <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+   <script src=" {{ env("APP_URL") }}/assets/js/jquery-3.5.1.min.js"></script>
+   <script src=" {{ env("APP_URL") }}/assets/js/popper.min.js"></script>
    <!-- Bootstrap JS -->
-   <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+   <script src=" {{ env("APP_URL") }}/assets/js/bootstrap.min.js"></script>
    <!-- owl carousel Js -->
-   <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+   <script src=" {{ env("APP_URL") }}/assets/js/owl.carousel.min.js"></script>
    <!-- select2 Js -->
-   <script src="{{ asset('assets/js/select2.min.js') }}"></script>
+   <script src=" {{ env("APP_URL") }}/assets/js/select2.min.js"></script>
    <!-- Magnific Popup-->
-   <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+   <script src=" {{ env("APP_URL") }}/assets/js/jquery.magnific-popup.min.js"></script>
    <!-- Custom JS-->
-   <script src="{{ asset('assets/js/custom.js') }}"></script>
-   <script src="{{ asset('assets/js/jquery-validation.js') }}"></script>
-   <script src="{{ asset('assets/js/toastr.min.js') }}"></script>
-   <script src="{{ asset('assets/js/ext-component-toastr.js') }}"></script>
-   <script src="{{ asset('assets/pages/setting.js') }}"></script>
-   <script src="{{ asset('assets/pages/login.js') }}"></script>
+   <script src=" {{ env("APP_URL") }}/assets/js/custom.js"></script>
+   <script src=" {{ env("APP_URL") }}/assets/js/jquery-validation.js"></script>
+   <script src=" {{ env("APP_URL") }}/assets/js/toastr.min.js"></script>
+   <script src=" {{ env("APP_URL") }}/assets/js/ext-component-toastr.js"></script>
+   <script src=" {{ env("APP_URL") }}/assets/pages/setting.js"></script>
+   <script src=" {{ env("APP_URL") }}/assets/pages/login.js"></script>
    <script>
     AuthController.init()
    </script>
