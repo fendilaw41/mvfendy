@@ -2,7 +2,7 @@
 @section('title', 'Favorite')
 @section('content')
 @push('styles')
-<link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
+<link rel="stylesheet" href="{{ env("APP_URL") }}/assets/css/custom.css">
 @endpush
 <div class="iq-breadcrumb-one iq-bg-over">
     <div class="container-fluid">
@@ -41,7 +41,7 @@
     ]) !!};
 </script>
 
-<script src="{{ asset('assets/pages/favorite.js') }}"></script>
+<script src="{{ env("APP_URL") }}/assets/pages/favorite.js"></script>
 <script>
     FavoriteController.init('{{session('access_token')}}')
 </script>

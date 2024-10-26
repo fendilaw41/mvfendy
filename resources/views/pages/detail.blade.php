@@ -2,7 +2,7 @@
 @section('title', 'Movies')
 @section('content')
 @push('styles')
-<link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
+<link rel="stylesheet" href="{{ env("APP_URL") }}/assets/css/custom.css">
 @endpush
 <section class="iq-main-slider site-video">
     <div class="container-fluid">
@@ -34,7 +34,7 @@
     ]) !!};
 </script>
 
-<script src="{{ asset('assets/pages/movie_detail.js') }}"></script>
+<script src="{{ env("APP_URL") }}/assets/pages/movie_detail.js"></script>
 <script>
     MovieDetailController.init('{{session('access_token')}}', '{{$id}}')
 </script>
