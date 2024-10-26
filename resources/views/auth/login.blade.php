@@ -59,23 +59,23 @@
    <!-- back-to-top End -->
    <!-- jQuery, Popper JS -->
    <input type="hidden" style="display: none;" class="app_url" value="{{ env("APP_URL") }}">
-   <script src=" {{ env("APP_URL") }}/assets/js/jquery-3.5.1.min.js"></script>
-   <script src=" {{ env("APP_URL") }}/assets/js/popper.min.js"></script>
+   <script src="{{ env("APP_URL") }}/assets/js/jquery-3.5.1.min.js"></script>
+   <script src="{{ env("APP_URL") }}/assets/js/popper.min.js"></script>
    <!-- Bootstrap JS -->
-   <script src=" {{ env("APP_URL") }}/assets/js/bootstrap.min.js"></script>
+   <script src="{{ env("APP_URL") }}/assets/js/bootstrap.min.js"></script>
    <!-- owl carousel Js -->
-   <script src=" {{ env("APP_URL") }}/assets/js/owl.carousel.min.js"></script>
+   <script src="{{ env("APP_URL") }}/assets/js/owl.carousel.min.js"></script>
    <!-- select2 Js -->
-   <script src=" {{ env("APP_URL") }}/assets/js/select2.min.js"></script>
+   <script src="{{ env("APP_URL") }}/assets/js/select2.min.js"></script>
    <!-- Magnific Popup-->
-   <script src=" {{ env("APP_URL") }}/assets/js/jquery.magnific-popup.min.js"></script>
+   <script src="{{ env("APP_URL") }}/assets/js/jquery.magnific-popup.min.js"></script>
    <!-- Custom JS-->
-   <script src=" {{ env("APP_URL") }}/assets/js/custom.js"></script>
-   <script src=" {{ env("APP_URL") }}/assets/js/jquery-validation.js"></script>
-   <script src=" {{ env("APP_URL") }}/assets/js/toastr.min.js"></script>
-   <script src=" {{ env("APP_URL") }}/assets/js/ext-component-toastr.js"></script>
-   <script src=" {{ env("APP_URL") }}/assets/pages/setting.js"></script>
-   <script src=" {{ env("APP_URL") }}/assets/pages/login.js"></script>
+   <script src="{{ env("APP_URL") }}/assets/js/custom.js"></script>
+   <script src="{{ env("APP_URL") }}/assets/js/jquery-validation.js"></script>
+   <script src="{{ env("APP_URL") }}/assets/js/toastr.min.js"></script>
+   <script src="{{ env("APP_URL") }}/assets/js/ext-component-toastr.js"></script>
+   <script src="{{ env("APP_URL") }}/assets/pages/setting.js"></script>
+   <script src="{{ env("APP_URL") }}/assets/pages/login.js"></script>
    <script>
     AuthController.init()
    </script>
