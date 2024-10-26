@@ -5,3 +5,5 @@
 5. ketik "php artisan key:generate"
 6. ketik "php artisan jwt:secret"
 7. running "php artisan serve"
+8. username = 'aldmic'
+9. password = '123abc123'
