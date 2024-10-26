@@ -2,14 +2,18 @@
 FROM php:7.4-fpm
 
 # Install dependensi yang diperlukan Laravel
-RUN apt-get update && apt-get install -y \
-    git \
-    unzip \
+RUN apt-get update && \
+    apt-get install -y \
     libpng-dev \
+    libonig-dev \
     libjpeg-dev \
     libfreetype6-dev \
-    && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install gd
+    libzip-dev \
+    zip \
+    unzip && \
+    docker-php-ext-configure gd --with-freetype --with-jpeg && \
+    docker-php-ext-install gd && \
+    docker-php-ext-install pdo pdo_mysql
 
 # Install Composer
 COPY --from=composer:1.10 /usr/bin/composer /usr/bin/composer
