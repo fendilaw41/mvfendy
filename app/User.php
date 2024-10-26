@@ -11,6 +11,7 @@ class User extends Authenticatable implements JWTSubject
 {
     use Notifiable;
 
+    protected $table = 'railway.users';
     /**
      * The attributes that are mass assignable.
      *
