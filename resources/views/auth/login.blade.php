@@ -9,15 +9,15 @@
       <!-- Favicon -->
       {{-- <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}"/> --}}
       <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}"/>
+      <link rel="stylesheet" href="https://sublime-enthusiasm-production.up.railway.app/assets/css/bootstrap.min.css"/>
       <!-- Typography CSS -->
-      <link rel="stylesheet" href="{{ asset('assets/css/typography.css') }}">
+      <link rel="stylesheet" href="https://sublime-enthusiasm-production.up.railway.app/assets/css/typography.css">
       <!-- Style -->
-      <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}"/>
+      <link rel="stylesheet" href="https://sublime-enthusiasm-production.up.railway.app/assets/css/style.css"/>
       <!-- Responsive -->
-      <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}"/>
-      <link rel="stylesheet" href="{{ asset('assets/css/toastr.min.css') }}">
-      <link rel="stylesheet" href="{{ asset('assets/css/ext-component-toastr.css') }}">
+      <link rel="stylesheet" href="https://sublime-enthusiasm-production.up.railway.app/assets/css/responsive.css"/>
+      <link rel="stylesheet" href="https://sublime-enthusiasm-production.up.railway.app/assets/css/toastr.min.css">
+      <link rel="stylesheet" href="https://sublime-enthusiasm-production.up.railway.app/assets/css/ext-component-toastr.css">
    </head>
    <body>
    <!-- loader Start -->
